@@ -7,6 +7,7 @@
     "build": "webpack",
     "clean": "rimraf dist/*",
     "serve": "webpack && http-server",
+    "dev-server": "webpack-dev-server --progress --colors --port 8080 --inline",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -27,6 +28,7 @@
     "tslint": "^5.4.0",
     "tslint-loader": "^3.5.3",
     "typescript": "^2.3.4",
-    "webpack": "^2.6.1"
+    "webpack": "^2.6.1",
+    "webpack-dev-server": "^2.4.5"
   }
 }
